@@ -1,24 +1,38 @@
 {
   "name": "parcel-transformer-markdoc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parcel transformer to load Markdown files when using Markdoc",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "scripts": {
     "watch": "tsbb watch",
-    "build": "tsbb build",
-    "test": "rm -rf .parcel-cache && rm -rf dist && node test/index.cjs"
+    "build": "tsbb build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Charlie Gerard | @devdevcharlie",
+  "license": "MIT",
+  "keywords": [
+    "parcel",
+    "parcel-bundler",
+    "parcel-plugin",
+    "bundler",
+    "plugin",
+    "transformer",
+    "markdown",
+    "markdoc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charliegerard/parcel-transformer-markdoc.git"
+  },
   "devDependencies": {
-    "parcel": "^2.5.0",
     "@parcel/config-default": "^2.3.2",
     "@parcel/core": "^2.3.2",
     "tsbb": "3.5.4"
   },
+  "peerDependencies": {
+    "parcel": "^2.5.0"
+  },
   "dependencies": {
-    "@babel/runtime": "^7.16.7",
     "@parcel/plugin": "^2.2.0",
     "@markdoc/markdoc": "^0.1.2"
   },

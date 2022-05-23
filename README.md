@@ -1,4 +1,4 @@
-A Parcel 2 transformer for [Markdoc](https://markdoc.io/).
+A [Parcel 2](https://parceljs.org/) transformer for [Markdoc](https://markdoc.io/).
 
 ## Installation
 
