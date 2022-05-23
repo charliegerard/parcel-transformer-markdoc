@@ -1,0 +1,29 @@
+{
+  "name": "parcel-transformer-markdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "scripts": {
+    "watch": "tsbb watch",
+    "build": "tsbb build",
+    "test": "rm -rf .parcel-cache && rm -rf dist && node test/index.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "@parcel/config-default": "^2.3.2",
+    "@parcel/core": "^2.3.2",
+    "tsbb": "3.5.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "@parcel/plugin": "^2.2.0",
+    "@markdoc/markdoc": "^0.1.2"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.2.0"
+  }
+}
