@@ -5,8 +5,7 @@
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "scripts": {
-    "watch": "tsbb watch",
-    "build": "tsbb build"
+    "build": "parcel build src/index.js"
   },
   "author": "Charlie Gerard | @devdevcharlie",
   "license": "MIT",
@@ -26,8 +25,7 @@
   },
   "devDependencies": {
     "@parcel/config-default": "^2.3.2",
-    "@parcel/core": "^2.3.2",
-    "tsbb": "3.5.4"
+    "@parcel/core": "^2.3.2"
   },
   "peerDependencies": {
     "parcel": "^2.5.0"
